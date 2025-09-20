@@ -39,3 +39,34 @@ botonBuscar.addEventListener("click", function(){
     botonBuscar.classList.add("rojo");
 });
 
+//==== Variables de ejercicios de clase ===== //
+var mas = document.getElementById("mas");
+var verTodos = document.getElementById("verTodos");
+var verFotos = document.getElementById("verFotos")
+var posts = document.getElementById("posts");
+var fotos = document.getElementById("imagenes");
+
+//==== Eventos de cada elemento ===== //
+mas.addEventListener("click", function(){
+    alert("Sección en progreso...");
+});
+
+verTodos.addEventListener("click", function(){
+    if(posts.classList.contains("ocultar")){
+        posts.classList.remove("ocultar");
+        posts.classList.add("mostrar");
+    } else {
+        posts.classList.remove("mostrar");
+        posts.classList.add("ocultar");
+    }
+});
+
+verFotos.addEventListener("click", function(){
+    if(fotos.classList.contains("ocultar")){
+        fotos.classList.remove("ocultar");
+        fotos.classList.add("mostrar");
+    } else {
+        fotos.classList.remove("mostrar");
+        fotos.classList.add("ocultar");
+    } //prueba, cambiar a mostrar por intervalos de tiempo
+});

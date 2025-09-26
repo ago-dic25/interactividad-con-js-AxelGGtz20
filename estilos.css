@@ -51,6 +51,7 @@ section img, aside img {
 #travel span {
      position: absolute;
      background-color: white;
+     color:black;
      border-radius: 20px;
      padding: 0 20px;
      top: 20px;
@@ -77,12 +78,11 @@ section img, aside img {
      
 }
 
-
-
 #travel .info h2,
 #travel .info span {
      font-size: 20px;
      background-color: white;
+     color:black;
      border-radius: 20px;
      margin: 10px 0;
 }
@@ -168,6 +168,7 @@ section img, aside img {
      
      #travel span{
           font-size: 25px;
+          color:black;
      }
      #travel button {
           font-size: 20px;
@@ -199,4 +200,19 @@ section img, aside img {
      margin: 10px 0;
      box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
      border-radius: 20px;
+}
+
+/* Modo oscuro */
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/*punto 3*/
+.ocultar2 {
+     display: none !important;
+}
+
+.mostrar2 {
+     display: block !important;
 }
